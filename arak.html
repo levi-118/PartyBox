@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Árak és ajánlatkérés | PartyBox Óbuda</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Ajánlatkérés</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="szolgaltatasok.html">Szolgáltatások</a></li>
+        <li><a href="esemenyek.html">Események</a></li>
+        <li><a href="arak.html">Árak</a></li>
+        <li><a href="kapcsolat.html">Kapcsolat</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Kérj személyre szabott árajánlatot</h2>
+    <form>
+      <label>Név:<br><input type="text" name="nev" required></label><br>
+      <label>Email:<br><input type="email" name="email" required></label><br>
+      <label>Telefonszám:<br><input type="tel" name="telefon"></label><br>
+      <label>Esemény típusa:<br>
+        <select name="esemeny">
+          <option>Születésnap</option>
+          <option>Meccsnézés</option>
+          <option>Céges esemény</option>
+          <option>Egyéb</option>
+        </select>
+      </label><br>
+      <label>Dátum:<br><input type="date" name="datum"></label><br>
+      <label>Üzenet:<br><textarea name="uzenet" rows="5"></textarea></label><br>
+      <button type="submit">Küldés</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 PartyBox Óbuda</p>
+  </footer>
+</body>
+</html>
